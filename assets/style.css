@@ -8,6 +8,7 @@ body {
     margin:0;
     padding:0;
     background-color: var(--secondary-color);
+    display: grid;
 }
 /* Header/Nav Bar Start*/
 
@@ -86,20 +87,37 @@ h2 {
 /* Main Bio container start */
 #main-bio {
     width:70%;
-    float:left;
-}
-#contact-info {
-    width:30%;
-    float:right;
-}
-.container {
-    margin: 0 auto;
-    width: 1024px;
+    
     
 }
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #bio-image {
     float:left;
     width: 200px;
     height: 200px;
     margin-right: 20px;
 }
+
+/* Bio End */
+
+/* Projects Start */
+.projects {
+    display: grid;
+     grid-gap: 5px;
+     grid-template-columns: repeat(3, 1fr);
+     
+
+}
+
+
+
+
+/* Projects End */
