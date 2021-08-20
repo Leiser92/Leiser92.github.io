@@ -59,6 +59,7 @@ header nav ul li a:hover {
 
 .temporary em {
     padding: 5px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
