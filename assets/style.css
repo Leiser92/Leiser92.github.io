@@ -7,11 +7,18 @@ header {
     background-color: #333;
 }
 h1 {
-    font-size: 28px;
+    font-size: 32px;
     color: #FFF;
     text-align: center;
     padding:20px;
     margin:0;
+}
+
+h2 {
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    
 }
 #main-bio {
     width:70%;
