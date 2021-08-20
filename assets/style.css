@@ -49,6 +49,7 @@ header nav ul li a {
     padding: 8px 12px;
     font-size: 1.5vw;
     color: azure;
+    text-decoration: none;
     
 }
 
@@ -77,33 +78,55 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    color: aliceblue;
-    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    margin-left: 20px;
+    font-weight: bold;
+    
     
 }
 /* Header/Nav Bar End */
 
 /* Main Bio container start */
 #main-bio {
-    width:70%;
+    display: block;
+    justify-content: space-evenly;
+    
     
     
 }
 
+p {
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
 
+#skills {
+    background-color: lightsteelblue;
+}
+
+ul li {
+    font-weight: bold;
+    font-size: large;
+}
 
 .container {
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 #bio-image {
     float:left;
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    margin-left: 15px;
+    padding-bottom: 15px;
 }
 
 /* Bio End */
@@ -113,8 +136,24 @@ h2 {
     display: grid;
      grid-gap: 5px;
      grid-template-columns: repeat(3, 1fr);
-     
+     justify-content: space-evenly;
+     place-items: center;
+     padding-top: 50px;
+     background: lightsteelblue;
+}
 
+h3 a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+h3 a:hover {
+    color: aqua;
+
+}
+
+.my-work img {
+    border: 5px solid var(--secondary-color)
 }
 
 
