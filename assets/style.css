@@ -1,14 +1,74 @@
+:root {
+    --primary-color:#fff;
+    --secondary-color:lightblue;
+}
+
+
 body {
     margin:0;
     padding:0;
-    background: #efeee7;
+    background-color: var(--secondary-color);
 }
+/* Header/Nav Bar Start*/
+
 header {
-    background-color: #333;
+    color: var(--primary-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/558/893/small/abstract-dark-black-geometric-hexagonal-mesh-material-header-metallic-technology-banner-with-blank-space-for-your-logo-abstract-widescreen-background-vector.jpg);
+    
 }
+
+header h1 {
+    font-weight: bold;
+    
+}
+
+header nav {
+    margin: 10px;
+
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style:none;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+    
+    
+}
+
+header nav ul li a {
+    padding: 8px 12px;
+    font-size: 1.5vw;
+    color: azure;
+    
+}
+
+header nav ul li a:hover {
+    color: var(--primary-color);
+    color: aqua;
+    text-shadow: none;
+}
+
+.temporary em {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+
 h1 {
     font-size: 32px;
-    color: #FFF;
+    color: var(--primary-color);
     text-align: center;
     padding:20px;
     margin:0;
@@ -20,6 +80,9 @@ h2 {
     text-align: center;
     
 }
+/* Header/Nav Bar End */
+
+/* Main Bio container start */
 #main-bio {
     width:70%;
     float:left;
@@ -31,13 +94,11 @@ h2 {
 .container {
     margin: 0 auto;
     width: 1024px;
+    
 }
 #bio-image {
     float:left;
     width: 200px;
     height: 200px;
     margin-right: 20px;
-}
-a {
-    color: red;
 }
