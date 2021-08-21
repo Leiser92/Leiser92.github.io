@@ -1,4 +1,4 @@
 # Leiser92.github.io
-My personal portfolio
+My personal portfolio that I will be building on during the next 6 months as I complete projects and increase in skill.
 
-Header Img used from google search - https://static.vecteezy.com/system/resources/thumbnails/002/558/893/small/abstract-dark-black-geometric-hexagonal-mesh-material-header-metallic-technology-banner-with-blank-space-for-your-logo-abstract-widescreen-background-vector.jpg
+link to site - https://leiser92.github.io/
