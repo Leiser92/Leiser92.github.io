@@ -1,0 +1,210 @@
+:root {
+    --primary-color:#fff;
+    --secondary-color:lightblue;
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    background-color: var(--secondary-color);
+    display: grid;
+    
+}
+/* Header/Nav Bar Start*/
+
+header {
+    color: var(--primary-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://i0.wp.com/tech.grandmadeb.com/wp-content/uploads/2020/06/Google-Form-Header-Blue-Hex-Texturemate-2020.png);
+    
+}
+
+header h1 {
+    font-weight: bold;
+    
+}
+
+header nav {
+    margin: 10px;
+
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style:none;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+    
+    
+}
+
+header nav ul li a {
+    padding: 8px 12px;
+    font-size: 1.5vw;
+    color: azure;
+    text-decoration: none;
+    
+}
+
+header nav ul li a:hover {
+    color: var(--primary-color);
+    color: aqua;
+    text-shadow: none;
+    font-size: 1.5em;
+}
+
+.temporary em {
+    padding: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+
+h1 {
+    font-size: 32px;
+    color: var(--primary-color);
+    text-align: center;
+    padding:20px;
+    margin:0;
+}
+
+h2 {
+    font-size: 1.5em;
+    display: flex;
+    margin-left: 20px;
+    font-weight: bold;
+    
+    
+}
+/* Header/Nav Bar End */
+
+/* Main Bio container start */
+#main-bio {
+    display: block;
+    justify-content: space-evenly;
+    border-right: 5px solid var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+
+}
+
+p {
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+#skills {
+    background-color: lightskyblue;
+}
+
+ul li {
+    font-weight: bold;
+    font-size: large;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#bio-image {
+    float:left;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+
+/* Bio End */
+
+/* Projects Start */
+.projects {
+    display: grid;
+     grid-gap: 5px;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: space-evenly;
+     place-items: center;
+     padding-top: 50px;
+     background: lightskyblue;
+}
+
+.projects img:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:300px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+ 
+h3 {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+h3 a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.projects h3 a:hover {
+    color: aqua;
+
+}
+
+
+.my-work img {
+    border: 5px solid var(--primary-color);
+}
+
+.my-work img:hover {
+    border: 5px solid aqua
+}
+
+
+
+
+/* Projects End */
+
+/* Footer Begins */
+footer h2 {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+    ;
+  
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+footer ul li a:hover {
+    color: aqua;
+}
+
+/* Footer Ends */
