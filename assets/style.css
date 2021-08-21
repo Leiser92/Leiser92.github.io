@@ -9,6 +9,7 @@ body {
     padding:0;
     background-color: var(--secondary-color);
     display: grid;
+    
 }
 /* Header/Nav Bar Start*/
 
@@ -17,7 +18,7 @@ header {
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/558/893/small/abstract-dark-black-geometric-hexagonal-mesh-material-header-metallic-technology-banner-with-blank-space-for-your-logo-abstract-widescreen-background-vector.jpg);
+    background-image: url(https://i0.wp.com/tech.grandmadeb.com/wp-content/uploads/2020/06/Google-Form-Header-Blue-Hex-Texturemate-2020.png);
     
 }
 
@@ -57,6 +58,7 @@ header nav ul li a:hover {
     color: var(--primary-color);
     color: aqua;
     text-shadow: none;
+    font-size: 1.5em;
 }
 
 .temporary em {
@@ -91,9 +93,9 @@ h2 {
 #main-bio {
     display: block;
     justify-content: space-evenly;
-    
-    
-    
+    border-right: 5px solid var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+
 }
 
 p {
@@ -105,7 +107,7 @@ p {
 }
 
 #skills {
-    background-color: lightsteelblue;
+    background-color: lightskyblue;
 }
 
 ul li {
@@ -139,7 +141,7 @@ ul li {
      justify-content: space-evenly;
      place-items: center;
      padding-top: 50px;
-     background: lightsteelblue;
+     background: lightskyblue;
 }
 
 .projects img:hover {
@@ -169,7 +171,11 @@ h3 a {
 
 
 .my-work img {
-    border: 5px solid var(--secondary-color)
+    border: 5px solid var(--primary-color);
+}
+
+.my-work img:hover {
+    border: 5px solid aqua
 }
 
 
